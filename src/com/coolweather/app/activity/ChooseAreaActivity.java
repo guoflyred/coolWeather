@@ -19,6 +19,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -102,6 +103,7 @@ public class ChooseAreaActivity extends Activity {
 			}
         	
         });
+        Log.d("data", "onCreate exectte");
         querProvinces();
     }
 
